@@ -8,15 +8,15 @@ import org.wpilib.framework.TimedRobot;
 import org.wpilib.system.DataLogManager;
 
 // import org.wpilib.command3.Command;
-import org.wpilib.command2.Command;
+// import org.wpilib.command2.Command;
 import org.wpilib.command2.CommandScheduler;
 // import org.wpilib.command3.Scheduler;
 // import org.wpilib.command2.sysid.Scheduler;;;
-import org.wpilib.driverstation.MatchState;
-import org.wpilib.driverstation.RobotState;
-import org.wpilib.driverstation.Alliance;
-import org.wpilib.driverstation.MatchType;
-import org.wpilib.driverstation.DriverStationErrors;
+// import org.wpilib.driverstation.MatchState;
+// import org.wpilib.driverstation.RobotState;
+// import org.wpilib.driverstation.Alliance;
+// import org.wpilib.driverstation.MatchType;
+// import org.wpilib.driverstation.DriverStationErrors;
 
 /**
  * The VM is configured to automatically run this class, and to call the functions corresponding to
@@ -25,14 +25,15 @@ import org.wpilib.driverstation.DriverStationErrors;
  * project.
  */
 public class Robot extends TimedRobot {
-  private Command m_autonomousCommand;
+  // private Command m_autonomousCommand;
 
-  private final RobotContainer m_robotContainer = new RobotContainer();
+  // private final RobotContainer m_robotContainer = new RobotContainer();
 
   public Robot()
   { 
     // Start recording to data log
     DataLogManager.start();
+    System.out.println("Hi");
 
     // Record DS control and joystick data.
     // Change to `false` to not record joystick data.
